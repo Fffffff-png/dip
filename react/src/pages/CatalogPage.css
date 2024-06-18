@@ -1,0 +1,14 @@
+.CatalogContainer{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.CatalogFilters{
+    flex-basis: 250px;
+    margin-left: 15px;
+    padding: 5px;
+}

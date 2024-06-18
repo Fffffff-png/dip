@@ -1,0 +1,52 @@
+.SearchInput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 32px 0 8px;
+}
+.SearchConteiner{
+    padding-left: 16px;
+    padding-right: 12px;
+    position: relative;
+    border-radius: 16px;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--text-primary);
+    font-size: 1rem;
+    background-color: var(--bg-input);
+}
+input, textarea{
+    padding: 11px 2px 13px;
+    line-height: normal;
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border: 0;
+    background: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+.GridGridContainer{
+    margin-bottom: 4px;
+    padding: 8px 0;
+    width: 100%;
+}
+.GridGrid{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 16px 0;
+}
+.GridItemPlaceholder{
+    flex: 1 0 auto;
+    width: 140px;
+    max-width: 50%;
+    padding:0 4px;
+}
